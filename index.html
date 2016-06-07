@@ -11,6 +11,7 @@
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
+	<div class="navbar-fixed">
 	<nav class="cyan">
 		<div class="nav-wrapper container cyan">
 			<a href="index.html" class="brand-logo">Manasa's Portfolio</a>
@@ -29,8 +30,9 @@
 			</ul>
 		</div>
 	</nav>
+	</div>
 	<main>
-		<div class="parallax-container">
+		<div id="par1" class="parallax-container">
 			<div class="parallax"><img src="https://images.alphacoders.com/511/511052.jpg"></div>
 		</div>
 		<div class="container section scrollspy" id="about-me">
@@ -38,16 +40,22 @@
 			<div class="row">
 				<div class="col s12">
 					<div class="card">
-						<div class="card-content">
-							<p>I started learning web design in 2015 in a highschool class called Web Animation</p></br>
-							<p>My projects are very different from trivia games to a personal webpage</p>
+						<div class="card-content cyan white-text">
+							<p>
+								<i class="fa fa-graduation-cap fa-2x" aria-hidden="true"></i>
+								I started learning web design in 2015 in a highschool class called Web Animation</br></br>
+								<i class="fa fa-github-alt fa-2x" aria-hidden="true"></i>
+								My projects are very different from trivia games to a personal webpage</br></br>
+								<i class="fa fa-music fa-2x" aria-hidden="true"></i>
+								My hobbies include singing, reading, and watching tv shows
+							</p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<div class="parallax-container">
+		<div id="par2" class="parallax-container">
 			<div class="parallax"><img src="http://www.touchestudio.com/wp-content/uploads/sites/75/2015/09/building-a-sitemap.jpg"></div>	
 		</div>
 		<div class="container section scrollspy" id="projects">
@@ -58,11 +66,11 @@
 						<div class="card-image">
 							<img class="responsive-img" src="img/first-website.png">
 						</div>
-						<div class="card-content">
-							<h5>
+						<div class="card-content cyan">
+							<h5 class="white-text">
 								My First Website
-								<a href="http://mnsaaa94.github.io/first-website/first-website.html" class="right"><i class="material-icons">launch</i></a>
-								<a href="https://github.com/Mnsaaa94/first-website"><i class="fa fa-github fa-1x right" aria-hidden="true"></i></a>
+								<a id="web1-1" href="http://mnsaaa94.github.io/first-website/first-website.html" class="right"><i class="material-icons">launch</i></a>
+								<a id="web1-2" href="https://github.com/Mnsaaa94/first-website"><i class="fa fa-github fa-1x right" aria-hidden="true"></i></a>
 							</h5>
 						</div>
 					</div>
@@ -72,11 +80,11 @@
 						<div class="card-image">
 							<img class="responsive-img" src="img/inside-out-website.png">
 						</div>
-						<div class="card-content">
-							<h5>
+						<div class="card-content cyan">
+							<h5 class="white-text">
 								Inside Out Fan Website
-								<a href="http://mnsaaa94.github.io/inside-out-website/inside-out-website.html" class="right"><i class="material-icons">launch</i></a>
-								<a href="https://github.com/Mnsaaa94/animate-inside-out-website"><i class="fa fa-github fa-1x right" aria-hidden="true"></i></a>
+								<a id="web2-1" href="http://mnsaaa94.github.io/inside-out-website/inside-out-website.html" class="right"><i class="material-icons">launch</i></a>
+								<a id="web2-2" href="https://github.com/Mnsaaa94/animate-inside-out-website"><i class="fa fa-github fa-1x right" aria-hidden="true"></i></a>
 							</h5>
 						</div>
 					</div>
@@ -88,11 +96,11 @@
 						<div class="card-image">
 							<img class="responsive-img" src="img/trivia-game.png">
 						</div>
-						<div class="card-content">
-							<h5>
+						<div class="card-content cyan">
+							<h5 class="white-text">
 								Disney Trivia
-								<a href="http://mnsaaa94.github.io/trivia/trivia-game.html" class="right"><i class="material-icons">launch</i></a>
-								<a href="https://github.com/Mnsaaa94/trivia"><i class="fa fa-github fa-1x right" aria-hidden="true"></i></a>
+								<a id="web3-1" href="http://mnsaaa94.github.io/trivia/trivia-game.html" class="right"><i class="material-icons">launch</i></a>
+								<a id="web3-2" href="https://github.com/Mnsaaa94/trivia"><i class="fa fa-github fa-1x right" aria-hidden="true"></i></a>
 							</h5>
 						</div>
 					</div>
@@ -102,11 +110,11 @@
 						<div class="card-image">
 							<img class="responsive-img" src="img/mad-libs.png">
 						</div>
-						<div class="card-content">
-							<h5>
+						<div class="card-content cyan">
+							<h5 class="white-text">
 								Mad Libs
-								<a href="http://mnsaaa94.github.io/Angular-Mad-Libs/angular-keypress.html" class="right"><i class="material-icons">launch</i></a>
-								<a href="https://github.com/Mnsaaa94/Angular-Mad-Libs"><i class="fa fa-github fa-1x right" aria-hidden="true"></i></a>
+								<a id="web4-1" href="http://mnsaaa94.github.io/Angular-Mad-Libs/angular-keypress.html" class="right"><i class="material-icons">launch</i></a>
+								<a id="web4-2" href="https://github.com/Mnsaaa94/Angular-Mad-Libs"><i class="fa fa-github fa-1x right" aria-hidden="true"></i></a>
 							</h5>
 						</div>
 					</div>
@@ -118,11 +126,11 @@
 						<div class="card-image">
 							<img class="responsive-img" src="img/to-do-list.png">
 						</div>
-						<div class="card-content">
-							<h5>
+						<div class="card-content cyan">
+							<h5 class="white-text">
 								To-Do List
-								<a href="http://mnsaaa94.github.io/to-do-list/to-do-list.html" class="right"><i class="material-icons">launch</i></a>
-								<a href="https://github.com/Mnsaaa94/to-do-list"><i class="fa fa-github fa-1x right" aria-hidden="true"></i></a>
+								<a id="web5-1" href="http://mnsaaa94.github.io/to-do-list/to-do-list.html" class="right"><i class="material-icons">launch</i></a>
+								<a id="web5-2" href="https://github.com/Mnsaaa94/to-do-list"><i class="fa fa-github fa-1x right" aria-hidden="true"></i></a>
 							</h5>
 						</div>
 					</div>
@@ -130,7 +138,7 @@
 			</div>
 		</div>
 
-		<div class="parallax-container">
+		<div id="par3" class="parallax-container">
 			<div class="parallax"><img src="https://assets.entrepreneur.com/content/16x9/822/20150708172005-coding-working-workspace-apple-macintosh.jpeg"></div>
 		</div>
 		<div class="container section scrollspy" id="skills">
@@ -197,35 +205,41 @@
 			</div>
 		</div>
 
-		<div class="parallax-container">
-			<div class="parallax"><img src="http://marketingland.com/wp-content/ml-loads/2015/11/mobile-apps-social-media-ss-1920.jpg"></div>
+		<div id="par4" class="parallax-container">
+			<div class="parallax"><img src="http://lovelace-media.imgix.net/uploads/413/02dc9180-d911-0133-f11e-0a6c20e5e327.jpg?"></div>
 		</div>
 		<div class="container section scrollspy" id="social-media">
 			<h3>Social Media</h3>
 			<div class="row">
 				<div class="col s3">
-					<div class="card cyan">
-						<div class="card-content white-text center">
-							<span class="card-title">Gmail</br></span>
-							<i class="fa fa-envelope fa-5x" aria-hidden="true"></i>
+					<a href="https://www.google.com/intl/en_us/mail/help/about.html">
+						<div class="card cyan">
+							<div class="card-content white-text center">
+								<span class="card-title">Gmail</br></span>
+								<i class="fa fa-envelope fa-5x" aria-hidden="true"></i>
+							</div>
 						</div>
-					</div>
+					</a>
 				</div>
 				<div class="col s3">
-					<div class="card cyan">
-						<div class="card-content white-text center">
-							<span class="card-title">Facebook</br></span>
-							<i class="fa fa-facebook-official fa-5x" aria-hidden="true"></i>
+					<a href="https://www.facebook.com/">
+						<div class="card cyan">
+							<div class="card-content white-text center">
+								<span class="card-title">Facebook</br></span>
+								<i class="fa fa-facebook-official fa-5x" aria-hidden="true"></i>
+							</div>
 						</div>
-					</div>
+					</a>
 				</div>
 				<div class="col s3">
-					<div class="card cyan">
-						<div class="card-content white-text center">
-							<span class="card-title">Github</br></span>
-							<i class="fa fa-github fa-5x" aria-hidden="true"></i>
+					<a href="https://github.com/Mnsaaa94">
+						<div class="card cyan">
+							<div class="card-content white-text center">
+								<span class="card-title">Github</br></span>
+								<i class="fa fa-github fa-5x" aria-hidden="true"></i>
+							</div>
 						</div>
-					</div>
+					</a>
 				</div>
 			</div>
 		</div>

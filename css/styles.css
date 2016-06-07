@@ -1,3 +1,23 @@
 .my_own_class{font-family: "devicons";}
 .my_own_class:before{ content:"\e609"}
 .my_own_class:before{ font-size: "200px";}
+
+#web1-1{color: white;}
+#web1-2{color: white;}
+
+#web2-1{color: white;}
+#web2-2{color: white;}
+
+#web3-1{color: white;}
+#web3-2{color: white;}
+
+#web4-1{color: white;}
+#web4-2{color: white;}
+
+#web5-1{color: white;}
+#web5-2{color: white;}
+
+#par1{height: 400px;}
+#par2{height: 400px;}
+#par3{height: 400px;}
+#par4{height: 400px;}
